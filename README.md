@@ -20,6 +20,7 @@ import { useAudioStream } from 'react-audio-stream'
 
 const App = () => {
   const sendBlob = (data: Blob) => {
+    // write your stream logic here.
     console.log(data)
   }
   const { startStream, stopStream } = useAudioStream(sendBlob)
