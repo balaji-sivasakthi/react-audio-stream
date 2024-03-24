@@ -2,9 +2,9 @@
   "name": "react-audio-stream",
   "version": "1.0.5",
   "description": "",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "./dist/cjs/hooks/index.js",
+  "module": "./dist/esm/hooks/index.js",
+  "types": "./dist/esm/hooks/index.d.ts",
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
